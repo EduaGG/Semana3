@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #92ccd6;
+    color: rgb(0, 0, 0);
+}
+
+nav img {
+    margin: 12px;
+    width: 120px;
+}
+
+nav ul a {
+    color: black;
+}
+
+p {
+    font-size: 22px;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width70 {
+    width: 70%;
+}
+
+.font-size-1rem{
+    font-size: 1rem !important;
+}
+
+.margin-20px {
+    margin: 20px;
+}
+
+.margin-left-10px{
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    height: calc(100vh - 100px);
+}
+
+.card {
+    background-color: #92ccd6;
+    width: 50%;
+    height: 80%;
+}
+
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-align-start {
+    display: flex;
+    align-items: flex-end;
+}
+
+#info {
+    border-radius: 45px;
+    width: 30%;
+}
+
+#form1 {
+    display: block;
+    width: 60%;
+    color: black;
+}
+
+.input-field.col {
+    background-color: rgba(111, 167, 157, 0.671);
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-inline: 10px;
+}
+
+.input-field.col input {
+    border: none;
+}
+
+.input-field.col input.validate.valid {
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+
+.input-field.col input.width95{
+    width: 95%;
+}
+
+.input-field.col input::placeholder {
+    color: black;
+}
+
+button.btn.waves-effect.waves-light {
+    background-color: whitesmoke;
+    border-radius: 6px;
+    color: black;
+}
+
+#form2 {
+    display: none;
+    width: 60%;
+}
+
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+    color: black;
+}
+
+input[type=range] {
+    border: solid 1px rgb(0, 2, 134);
+}
+
+.btn-box {
+    margin: 0 10px;
+}

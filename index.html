@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+
+    <nav>
+        <div class="nav-wrapper">
+            <img src="./images/universidad-galileo.png" alt="Galileo Logo">
+            <span class="brand-logo text-align:flex-align-center black-text font-size-1rem"><strong>TAREA #3</strong></span>
+            
+            <ul id="nav-mobile" class="right width50">
+                <li><a href="#" onclick="showForm1()">Formulario 1</a></li>
+                <li><a href="#" onclick="showForm2()">Formulario 2</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="content">
+
+        <div id="info" class="card darken-1">
+            <div class="card-content black-text margin-20px">
+                <p>
+                    <strong>Nombre:</strong> Eduardo José García González</span><br>
+                    <strong>Carnet:</strong> 22000851</span><br>
+                    <strong>Curso:</strong> Fundamentos de Aplicaiones Web<br>
+                    <strong>Año:</strong> 2024</span><br>
+                </p>
+            </div>
+        </div>
+
+        <div id="form1" class="card darken-1">
+            <div class="card-content black-text">
+                            <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="flex-align-center">
+                                <div class="input-field col s6 margin-left black-text">
+                                    <input placeholder="Nombre" id="nombre" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s6 black-text">
+                                    <input placeholder="Apellido" id="apellido" type="text" class="validate">
+                                </div>
+                            </div>
+                            <div class="flex-align-center">
+                                <div class="input-field col s12 black-text">
+                                    <input placeholder="Direccion" id="direccion" type="text" class="validate">
+                                </div>
+                            </div>
+                            <div class="flex-align-center">
+                                <div class="input-field col s4 black-text">
+                                    <input placeholder="Cumpleaños" id="cumpleanios" type="text" class="validate">
+                                </div>
+                                <div class="input-field col s4 black-text">
+                                    <input placeholder="Carnet" id="carnet" type="number" class="validate">
+                                </div>
+                                <div class="input-field col s4 black-text">
+                                    <input placeholder="Numero de Mascotas" id="mascotas" type="number" class="validate">
+                                </div>
+                            </div>
+                            <div class="flex-align-center">
+                                <div class="input-field col s12 black-text">
+                                    <input placeholder="Direccion" id="direccion" type="text" class="validate width95">
+                                    <i class="material-icons prefix">arrow_drop_down</i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    <button class="btn waves-effect waves-light col s12" type="submit" name="action">GRABAR</button>
+                </div>
+            </div>
+        </div>
+    
+        <div id="form2" class="card darken-1">
+            <div class="card-content black-text">
+
+                <form action="#" class="margin-20px">
+                    <p>Genero</p>
+                    <p>
+                      <label>
+                        <input name="group1" type="radio"/>
+                        <span>Masculino</span>
+                      </label>
+                    </p>
+                    <p>
+                      <label>
+                        <input name="group1" type="radio" />
+                        <span>Femenino</span>
+                      </label>
+                    </p>
+                </form>
+                <p>¿Cuál el porcentaje de su conocimiento? </p>
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="flex-align-center">
+                                <div class="col s3 margin-left black-text">HTML</div>
+                                <div class="col s6 black-text">
+                                    <p class="range-field">
+                                        <input placeholder="html" type="range" id="test1" min="0" max="10" />
+                                    </p>
+                                </div>
+                                <div class="col s2"></div>
+                            </div>
+                            <div class="flex-align-center">
+                                <div class="col s3 margin-left black-text">CSS</div>
+                                <div class="col s6 black-text">
+                                    <p class="range-field">
+                                        <input placeholder="css" type="range" id="test2" min="0" max="10" />
+                                    </p>
+                                </div>
+                                <div class="col s2"></div>
+                            </div>
+                            <div class="flex-align-center">
+                                <div class="col s12 black-text btn-box">
+                                    <button class="btn waves-effect waves-light col s12" type="submit" name="action">GRABAR</button>
+                                </div>
+                                <div class="col s12 black-text btn-box">
+                                    <button class="btn waves-effect waves-light col s12" type="submit" name="action">RETORNAR</button>    
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </form>
+
+                </div>
+ 
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
